@@ -1,3 +1,5 @@
+# Crea directorio para logs
+mkdir logs
 # Ejecuta en segundo plano y redirige salida de pantalla a archivo de log 
 nohup python3 ingesta01.py > ./logs/ingesta01.log &
 nohup python3 ingesta02.py > ./logs/ingesta02.log &
